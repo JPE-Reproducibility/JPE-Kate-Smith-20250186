@@ -1,0 +1,54 @@
+BSD 3-Clause License
+
+Copyright (c) 2026, Peter Levell, Martin O'Connell, and Kate Smith
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+3. Neither the name of the copyright holder nor the names of its
+   contributors may be used to endorse or promote products derived from
+   this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+---
+
+DATA LICENSING
+
+The above license applies to the CODE in this replication package only. The
+data distributed with, or referenced by, this package are governed by separate
+terms:
+
+- Publicly available data redistributed in dataInput/dataRaw/ (ONS, Ofgem,
+  BEIS/DESNZ, and Met Office sources) are used under the UK Open Government
+  Licence v3.0 (https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/).
+  Attribution: "Contains public sector information licensed under the Open
+  Government Licence v3.0." ONS geographic lookup files additionally contain
+  Ordnance Survey data (c) Crown copyright and database right. The Met Office
+  HadUK-Grid data should be cited as required by the Met Office / CEDA.
+
+- Synthetic data produced by Programs/synthetic_data_generator.do, and other
+  files created by the authors, are released under the Creative Commons
+  Attribution 4.0 International licence (CC-BY-4.0).
+
+- The restricted ExactOne bank transaction data (Clear Score Technology Ltd)
+  and the Living Costs and Food Survey (UK Data Service, SN 8583) are NOT
+  redistributed in this package and remain subject to the terms of their
+  respective providers.
