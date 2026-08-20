@@ -3,48 +3,16 @@
 
 We found the following set of hard coded numbers. This may be completely legitimate (parameter input, thresholds for computations, etc), and is hence only for information.
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/_GLOBALS.do**
-
-- Line 36, : global E    "0.059*1.24"   //Marginal carbon externality
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/MPCE.m**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/Observedpolicy.m**
 
 - Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations_Appendix/Counterfactualpolicyincadj.m**
-
-- Line 29, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
-- Line 74, : range=[(0:0.01:0.52) 0.525];
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/4.modelEstimates/0.prepareestimation.do**
-
-- Line 11, : global conv_crit "0.000000001"
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/Observedpolicy.m**
-
-- Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations_Appendix/RevEffect.m**
-
-- Line 17, : % cap=7.74536;
-- Line 18, : % psi=0.8395;
-- Line 46, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/Counterfactualpolicy.m**
-
-- Line 30, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
-- Line 89, : maxss=maxs+0.005;
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/Counterfactualpolicy.m**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/Counterfactualpolicy.m**
 
 - Line 30, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
 - Line 89, : %maxss=maxs+0.005;
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/Observedpolicy.m**
-
-- Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
-
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/synthetic_data_generator.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/synthetic_data_generator.do**
 
 - Line 39, : local vdd_shr = 0.065  // variable direct debit share (paper: 6.3%)
 - Line 84, : replace gor =  1 if u_gor < 0.044                          // North East      4.4%
@@ -72,32 +40,38 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 1247, : - 0.010 * (inc_dec - 5.5) / 4.5                     ///
 - Line 1248, : + rnormal(0, 0.004)
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/2.setupData/1.importenergypricecap.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/MPCE.m**
 
-- Line 280, : gen EPGsubsidy_Energy =  EPGsubsidy_up_Elec*(1-0.4821) + EPGsubsidy_up_Gas*0.4821
-- Line 284, : gen EPGsubsidy_Energy_PPM =  EPGsubsidy_up_Elec_PPM*(1-0.4821) + EPGsubsidy_up_Gas_PPM*0.4821
+- Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/3.descriptiveResults/6.MPCs.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations_Appendix/Counterfactualpolicyincadj.m**
 
-- Line 472, : lincom 1- ((202210.yrmn#1.everEBSS + 202211.yrmn#1.everEBSS + 202212.yrmn#1.everEBSS + 202301.yrmn#1.everEBSS + 202302.yrmn#1.everEBSS + 202303.yrmn#1.everEBSS + 202304.yrmn#1.everEBSS + 202305.yrmn#1.everEBSS + 202306.yrmn#1.everEBSS + 202307.yrmn#1.everEBSS + 202308.yrmn#1.everEBSS + 202309.yrmn#1.everEBSS + 202310.yrmn#1.everEBSS + 202311.yrmn#1.everEBSS + 202312.yrmn#1.everEBSS)/342.73059);
+- Line 29, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
+- Line 74, : range=[(0:0.01:0.52) 0.525];
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/4.modelEstimates/Estimation/Estimate.m**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/4.modelEstimates/Estimation/Estimate.m**
 
 - Line 26, : if thetahat<theta0-0.099*abs(theta0)
 - Line 30, : if thetahat>theta0+0.099*abs(theta0)
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/2.setupData/5b.appendCSallspending.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/2.setupData/5b.appendCSallspending.do**
 
 - Line 281, : replace col = 1 if inrange(amount,325.999,326.001) & inrange(transdate,td(14jul2022),td(31jul2022)) & creditdebit==1
 - Line 282, : replace col = 1 if inrange(amount,323.999,324.001) & inrange(transdate,td(8nov2022),td(23nov2022)) & creditdebit==1
 - Line 283, : replace col = 1 if inrange(amount,300.999,301.001) & inrange(transdate,td(25apr2023),td(17may2023)) & creditdebit==1
 - Line 284, : replace col = 1 if inrange(amount,299.999,300.001) & inrange(transdate,td(31oct2023),td(19nov2023)) & creditdebit==1
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/MPCE.m**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations_Appendix/RevEffect.m**
+
+- Line 17, : % cap=7.74536;
+- Line 18, : % psi=0.8395;
+- Line 46, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/Observedpolicy.m**
 
 - Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
 
-**/Users/florianoswald/actions-runner/_work/JPE-Kate-Smith-20250186/JPE-Kate-Smith-20250186/replication-package/ReplicationPackage/Programs/2.setupData/6.insheetweatherprices.do**
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/2.setupData/6.insheetweatherprices.do**
 
 - Line 77, : gen pIdx_NI = 106.626			if yrmn == 202101
 - Line 78, : replace pIdx_NI = 106.981		if yrmn == 202102
@@ -111,4 +85,30 @@ We found the following set of hard coded numbers. This may be completely legitim
 - Line 89, : replace pIdx_NI = 144.218		if yrmn == 202201
 - Line 93, : replace pIdx_NI = 165.021		if yrmn == 202205
 - Line 94, : replace pIdx_NI = 171.336		if yrmn == 202206
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/3.descriptiveResults/6.MPCs.do**
+
+- Line 472, : lincom 1- ((202210.yrmn#1.everEBSS + 202211.yrmn#1.everEBSS + 202212.yrmn#1.everEBSS + 202301.yrmn#1.everEBSS + 202302.yrmn#1.everEBSS + 202303.yrmn#1.everEBSS + 202304.yrmn#1.everEBSS + 202305.yrmn#1.everEBSS + 202306.yrmn#1.everEBSS + 202307.yrmn#1.everEBSS + 202308.yrmn#1.everEBSS + 202309.yrmn#1.everEBSS + 202310.yrmn#1.everEBSS + 202311.yrmn#1.everEBSS + 202312.yrmn#1.everEBSS)/342.73059);
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/Simulations/Counterfactualpolicy.m**
+
+- Line 30, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
+- Line 89, : maxss=maxs+0.005;
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/_GLOBALS.do**
+
+- Line 36, : global E    "0.059*1.24"   //Marginal carbon externality
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/2.setupData/1.importenergypricecap.do**
+
+- Line 280, : gen EPGsubsidy_Energy =  EPGsubsidy_up_Elec*(1-0.4821) + EPGsubsidy_up_Gas*0.4821
+- Line 284, : gen EPGsubsidy_Energy_PPM =  EPGsubsidy_up_Elec_PPM*(1-0.4821) + EPGsubsidy_up_Gas_PPM*0.4821
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/4.modelEstimates/0.prepareestimation.do**
+
+- Line 11, : global conv_crit "0.000000001"
+
+**/var/folders/5q/yhcyv3z55wvg6lhgc3h22kk00000gq/T/20250186-2/replication-package/ReplicationPackage/Programs/5.modelSimulations/SimulationsSynthetic/MPCE.m**
+
+- Line 24, : ext=0.059*1.24*mean(exp(pS));     %Externality per pound
 
